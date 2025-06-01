@@ -21,7 +21,9 @@
   margin: 0 10px;
   font-weight: 500;
 }
-
+.navbar__links-desktop a:hover {
+  color:orangered;
+}
 /* Desktop social icons */
 .navbar__icons-desktop a {
   color: white;
@@ -33,7 +35,7 @@
 /* Hover effect */
 .navbar__icons-desktop a:hover,
 .navbar__icons-mobile a:hover {
-  color: orange;
+  color:orangered;
 }
 
 /* Hamburger hidden by default */
