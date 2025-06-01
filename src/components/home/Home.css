@@ -1,0 +1,53 @@
+/* Home */
+.home-main {
+  background-image: url("../../assets/download.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home-description {
+  max-width: 750px;
+  margin: 20px 0;
+}
+
+.home-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.home-button:hover {
+  background-color: orangered;
+  border-color: orangered;
+  color: white;
+}
+
+/* service */
+.service{
+  padding: 20px 200px;
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
