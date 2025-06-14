@@ -1,53 +1,109 @@
-/* Home */
-.home-main {
-  background-image: url("../../assets/download.jpg");
+/* Home Section */
+.home-section {
+  background-image: url('../../assets/Home_.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.home-section .content {
+  max-width: 600px;
+  color: #2a302f;
+}
+
+.home-section .content .custom-hover {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.home-section .content .custom-hover:hover {
+  background-color: lightblue;
+  color: white;
+  border-color: lightblue;
+}
+
+
+
+/* About Section */
+.about-section {
+  background-color: #f8f9fa;
+}
+
+.about-section .section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.about-section .section-subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  font-style: italic;
+}
+
+.about-section .section-text {
+  font-size: 1.05rem;
+  color: #444;
+  line-height: 1.7;
+}
+
+.about-section .btn-outline-dark:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+/* Contact Section */
+.contact-section {
+  background-image: url('../../assets/contact.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
+}
+
+.contact-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.contact-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.contact-form input,
+.contact-form textarea {
+  /* background-color: #f9f9f9;
+  border: 1px solid #ddd; */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #000;
+  box-shadow: none;
+}
+
+.map-wrapper iframe {
+  border: 0;
+  border-radius: 1rem;
+}
+
+.contact-section .custom-hover:hover {
+  background-color: lightblue;
   color: white;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.home-description {
-  max-width: 750px;
-  margin: 20px 0;
-}
-
-.home-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  color: white;
-  background-color: transparent;
-  border: 2px solid white;
-  border-radius: 40px;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-}
-
-.home-button:hover {
-  background-color: orangered;
-  border-color: orangered;
-  color: white;
-}
-
-/* service */
-.service{
-  padding: 20px 200px;
-}
-.card-img-top {
-  height: 200px;
-  object-fit: cover;
-}
-
-.card {
-  transition: transform 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-5px);
+  border-color: lightblue;
 }
