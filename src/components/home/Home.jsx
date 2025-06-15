@@ -158,7 +158,7 @@ const Home = () => {
                             >
                                 <img src={service1} alt="Service 1" className="mx-auto mb-3" style={{ width: "80px" }} />
                                 <h5 className="fw-semibold">Cloud Managed Services</h5>
-                                <p className="text-muted">To provide comprehensive, reliable, and scalable cloud managed services through ReyanSys, ensuring seamless migration, optimization, and ongoing management of clients cloud infrastructure to enhance efficiency, security, and agility while maximizing ROI.</p>
+                                <p className="text-muted">To provide comprehensive, reliable, and scalable cloud managed services through Cloud Crest Technologies, ensuring seamless migration, optimization, and ongoing management of clients cloud infrastructure to enhance efficiency, security, and agility while maximizing ROI.</p>
                             </div>
                         </div>
 
@@ -167,7 +167,7 @@ const Home = () => {
                                 onClick={() => window.open('/service2', '_blank')}>
                                 <img src={service2} alt="Service 2" className="mx-auto mb-3" style={{ width: "80px" }} />
                                 <h5 className="fw-semibold">Managed Observability and Monitoring Services</h5>
-                                <p className="text-muted">At ReyanSys, we understand that in today's digital landscape, businesses rely heavily on their IT infrastructure to deliver seamless services to their customers. Any disruptions or performance issues can directly impact business operations and revenue.</p>
+                                <p className="text-muted">At Cloud Crest Technologies, we understand that in today's digital landscape, businesses rely heavily on their IT infrastructure to deliver seamless services to their customers. Any disruptions or performance issues can directly impact business operations and revenue.</p>
                             </div>
                         </div>
 
@@ -176,7 +176,7 @@ const Home = () => {
                                 onClick={() => window.open('/service3', '_blank')}>
                                 <img src={service3} alt="Service 3" className="mx-auto mb-3" style={{ width: "80px" }} />
                                 <h5 className="fw-semibold">Managed DevOps Services</h5>
-                                <p className="text-muted">Certainly! Here are some potential objectives for ReyanSys to consider in offering DevOps services</p>
+                                <p className="text-muted">Certainly! Here are some potential objectives for Cloud Crest Technologies to consider in offering DevOps services</p>
                             </div>
                         </div>
 
@@ -185,7 +185,7 @@ const Home = () => {
                                 onClick={() => window.open('/service4', '_blank')}>
                                 <img src={service4} alt="Service 4" className="mx-auto mb-3" style={{ width: "80px" }} />
                                 <h5 className="fw-semibold">Staffing Services</h5>
-                                <p className="text-muted">Contact ReyanSys today to learn more about our comprehensive IT staffing services and discover how we can help you achieve your digital transformation goals.</p>
+                                <p className="text-muted">Contact Cloud Crest Technologies today to learn more about our comprehensive IT staffing services and discover how we can help you achieve your digital transformation goals.</p>
                             </div>
                         </div>
                     </div>
