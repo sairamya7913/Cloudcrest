@@ -117,7 +117,9 @@ const Home = () => {
             <section id="home" className="home-section">
                 <div className="content">
                     <h2 className="">Innovative and Reliable IT Solutions</h2>
-                    <p className="">Welcome to ReyanSys: At ReyanSys, we're more than just a provider of IT services; we're your trusted partner in harnessing the magic of reliability to drive business success. Since our inception, we've been dedicated to transforming the way businesses operate by delivering cutting-edge IT solutions that you can rely on.</p>
+                    <p className="">Welcome to Cloud Crest Technologies
+                        : At Cloud Crest Technologies
+                        , we're more than just a provider of IT services; we're your trusted partner in harnessing the magic of reliability to drive business success. Since our inception, we've been dedicated to transforming the way businesses operate by delivering cutting-edge IT solutions that you can rely on.</p>
                     <a href="#contact" className="btn btn-outline-dark px-3 py-2 mt-3 rounded-5 custom-hover">
                         Contact Us
                     </a>
@@ -131,8 +133,7 @@ const Home = () => {
                         <div className="col-lg-8" data-aos="fade-right">
                             <h2 className="section-title mb-4">About Us</h2>
                             <p className="section-subtitle mb-4">
-                                We’re a team of designers, developers, and strategists passionate about building beautiful and
-                                effective digital experiences.
+                                Cloud crest is an IT consulting company.
                             </p>
                             <p className="section-text mb-4">
                                 From branding and UI/UX design to full-stack web development, we work with startups and businesses

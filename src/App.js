@@ -8,6 +8,7 @@ import Service1 from "./components/services/Service1";
 import Service2 from "./components/services/Service2";
 import Service3 from "./components/services/Service3";
 import Service4 from "./components/services/Service4";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
 
         <ToastContainer position="top-right" autoClose={3000} />
       </main>
+      <Footer/>
     </Router>
   );
 };
