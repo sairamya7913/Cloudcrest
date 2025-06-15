@@ -59,6 +59,17 @@
 }
 
 
+/* Service Section */
+.service-card {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.service-card:hover {
+  background-color: #e0f4ff;
+  transform: translateY(-4px);
+}
+
 
 /* Contact Section */
 .contact-section {
@@ -97,9 +108,8 @@
   box-shadow: none;
 }
 
-.map-wrapper iframe {
+.contact-form .map-wrapper iframe {
   border: 0;
-  border-radius: 1rem;
 }
 
 .contact-section .custom-hover:hover {

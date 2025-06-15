@@ -1,41 +1,37 @@
-import React from "react";
-import Navbar from "./components/navbar/Navbar";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
+
 import Home from "./components/home/Home";
+import Navbar from "./components/navbar/Navbar";
+import Service1 from "./components/services/Service1";
+import Service2 from "./components/services/Service2";
+import Service3 from "./components/services/Service3";
+import Service4 from "./components/services/Service4";
 
 const App = () => {
   return (
-    <>
+    <Router>
       <Navbar />
       <main>
-        <Home />
+        <Routes>
+          {/* Home with section routes */}
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<Home />} />
+          <Route path="/services" element={<Home />} />
+          <Route path="/blog" element={<Home />} />
+          <Route path="/contact" element={<Home />} />
 
+          {/* Service pages */}
+          <Route path="/service1" element={<Service1 />} />
+          <Route path="/service2" element={<Service2 />} />
+          <Route path="/service3" element={<Service3 />} />
+          <Route path="/service4" element={<Service4 />} />
+        </Routes>
 
-        {/* <section id="services" style={{ height: "100vh", padding: "50px 20px", scrollMarginTop: "80px" }}>
-        <h1>Services Section</h1>
-        <p>Details about services.</p>
-      </section>
-
-      <section id="blog" style={{ height: "100vh", padding: "50px 20px", scrollMarginTop: "80px" }}>
-        <h1>Blog Section</h1>
-        <p>Blog posts and articles.</p>
-      </section>
-
-      <section id="contact" style={{ height: "100vh", padding: "50px 20px", scrollMarginTop: "80px" }}>
-        <h1>Contact Us Section</h1>
-        <p>Contact details and form.</p>
-      </section>
-
-      <section id="about" style={{ height: "100vh", padding: "50px 20px", scrollMarginTop: "80px" }}>
-        <h1>About Us Section</h1>
-        <p>Information about the company.</p>
-      </section>
-
-      <section id="faq" style={{ height: "100vh", padding: "50px 20px", scrollMarginTop: "80px" }}>
-        <h1>FAQ Section</h1>
-        <p>Frequently asked questions.</p>
-      </section> */}
+        <ToastContainer position="top-right" autoClose={3000} />
       </main>
-    </>
+    </Router>
   );
 };
 
